@@ -33,9 +33,9 @@
 
 # 查看日志
 - git log 查看项目的日志
-git log filename 查看某文件的日志
-git log . 查看本目录的日志
-git log --pretty=oneline 让日志单行显示
+- git log filename 查看某文件的日志
+- git log . 查看本目录的日志
+- git log --pretty=oneline 让日志单行显示
 
 # 查看操作记录
 - git reflog
@@ -75,8 +75,7 @@ git log --pretty=oneline 让日志单行显示
 # 公钥登录
 1. 配置ssh格式的远程仓库地址
 git remote add 远程仓库名 远程仓库地址
-例:
-git remote add gitaddr git@git.oschina.net:lianshou/test.git
+例：git remote add gitaddr git@git.oschina.net:lianshou/test.git
 2. 创建ssh key
 ssh-keygen -t rsa -C "youremail@example.com",把邮件地址换成你自己的邮件地址,一直回车,不用输入密码.完成后,可以在用户主目录里找 到.ssh目录,内有id_rsa和id_rsa.pub两个文件. id_rsa是私钥,id_rsa.pub是公钥. 这两把钥匙是成对的,可以让分别持有私钥和公钥的双方相互认识.
 3. 把公钥放在服务器 用记事本打开id_rsa.pub,复制公钥内容. 登陆git.oschina.net,如下图,填入公钥并保存.
