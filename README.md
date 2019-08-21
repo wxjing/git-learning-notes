@@ -23,7 +23,6 @@ git branch -d branch-name 删除分支
 
 git merge branch-name 合并分支
 
-
 # 查看日志
 - git log 查看项目的日志
 - git log filename 查看某文件的日志
