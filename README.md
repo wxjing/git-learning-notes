@@ -6,24 +6,24 @@
 - git config --global user.email youremail #怎么联系你
 
 # 基础命令
-git init 初始化git目录
-git status 查看状态
-git rm 删除
-git add 添加
-git commit -m '注释' 提交到版本库
-git pull 远程仓库拉取到本地
-git push 代码提交到远程仓库
-
-git checkout -- 恢复修改的文件
-git reset HEAD  恢复删除的文件
-流式协议，没有消息边界。<br/><span style="color:red;">客户端向服务器</span>发送1次数据，可能会被服务器分成多次收到。<br>客户端向服务器发送
-git branch 查看分支
-git branch branch-name 创建分支
-git checkout branch-name 切换分支
-git checkout -b branch-name 创建新分支并切换分支
-git branch -d branch-name 删除分支
-
-git merge branch-name 合并分支
+- git init 初始化git目录
+- git status 查看状态
+- git rm 删除
+- git add 添加
+- git commit -m '注释' 提交到版本库
+- git pull 远程仓库拉取到本地
+- git push 代码提交到远程仓库
+ 
+- git checkout -- 恢复修改的文件
+- git reset HEAD  恢复删除的文件
+ 
+- git branch 查看分支
+- git branch branch-name 创建分支
+- git checkout branch-name 切换分支
+- git checkout -b branch-name 创建新分支并切换分支
+- git branch -d branch-name 删除分支
+ 
+- git merge branch-name 合并分支
 
 # 查看日志
 - git log 查看项目的日志
